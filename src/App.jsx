@@ -10,12 +10,17 @@ function App() {
  <h1>count {value}</h1>
  <button onClick={
   ()=> {
-    Setvalue(value + 3);
+    setValue(value + 3);
   }
  }>Add3</button>
+ <button onClick={
+  ()=> {
+        setValue(value + 2);
+  }
+}>Add2</button>
  </>
-
   )
 }
+
 
 export default App
